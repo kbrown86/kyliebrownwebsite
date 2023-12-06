@@ -6,7 +6,7 @@ editor: visual
 
 ## Kylie Brown
 
-### GW Student Studying Journalism & Mass Communications 
+### *GW Student Studying Journalism & Mass Communications* 
 
 ![](Facetune_19-09-2023-17-42-31.jpg){width="299"}
 
@@ -16,21 +16,18 @@ Since a young age, I have always been passionate about writing and story-telling
 
 It is important to me that I continue to push myself outside my comfort zone and seek opportunities that allow me to challenge myself and learn new skills. I'm actively seeking further newsroom or public relations experience that utilizes and leverages my diverse skillset.
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+**Explore my work:**
 
-## Running Code
+##### [My Resume](https://github.com/kbrown86/kyliebrownwebsite/blob/main/Finalized%20Resume.pdf)
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+##### [My GitHub](https://github.com/kbrown86)
 
-```{r}
-1 + 1
-```
+##### My County Census Analysis
 
-You can add options to executable code like this
+##### My Paper
 
-```{r}
-#| echo: false
-2 * 2
-```
+##### My News Story 
 
-The `echo: false` option disables the printing of code (only output is displayed).
+## *Contact Me*
+
+\(720\) 606 - 3360 / kbrown86\@gwmail.gwu.edu
