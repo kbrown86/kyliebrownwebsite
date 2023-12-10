@@ -94,3 +94,60 @@ mapview(tx_counties_withgeo, zcol = "medage",
          alpha.regions = 1)
 
 ```
+
+# Turn off legends, hover text, popups
+
+```{r}
+
+mapview(tx_counties_withgeo, zcol = "medage", 
+         col.regions = RColorBrewer::brewer.pal(9, "Greens"), 
+         alpha.regions = 1,
+         legend = FALSE, 
+         label = FALSE, 
+         popup = FALSE)
+
+
+```
+
+# Customize your own labels
+
+```{r}
+
+mylabel <- glue::glue("{tx_counties_withgeo$NAM} {tx_counties_withgeo$medage}")
+
+
+mapview(tx_counties_withgeo, zcol = "medage", 
+         col.regions = RColorBrewer::brewer.pal(9, "Greens"), 
+         alpha.regions = 1,
+         label = mylabel)
+
+
+
+```
+
+# Customize your pop-ups
+
+```{r}
+
+mypopup <- glue::glue(
+"<strong>{tx_counties_withgeo$NAM}</strong><br />
+  Total Population: {tx_counties_withgeo$totalpop}<br />
+   Median Age: {tx_counties_withgeo$medage}") %>% 
+  lapply(htmltools::HTML)
+
+```
+
+```{r}
+
+head(mypopup)
+
+```
+
+
+```{r}
+mapview(tx_counties_withgeo, zcol = "medage", 
+         col.regions = RColorBrewer::brewer.pal(9, "Greens"), 
+         alpha.regions = 1,
+         popup = mypopup)
+```
+
