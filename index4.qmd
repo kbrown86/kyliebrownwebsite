@@ -149,3 +149,5 @@ mapview(tx_counties_withgeo, zcol = "medage",
          alpha.regions = 1,
          popup = mypopup)
 ```
+
+Back to [*Home Page*](https://kbrown86.github.io/kyliebrownwebsite/index2.html)
