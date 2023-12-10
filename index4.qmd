@@ -143,11 +143,9 @@ head(mypopup)
 
 ```
 
-
 ```{r}
 mapview(tx_counties_withgeo, zcol = "medage", 
          col.regions = RColorBrewer::brewer.pal(9, "Greens"), 
          alpha.regions = 1,
          popup = mypopup)
 ```
-
